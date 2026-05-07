@@ -83,12 +83,23 @@ export default function AboutPage(){
                         </span>
                         <h3 className = "font-semibold text-ink">Building & Learning</h3>
                         <p className = "mt-1 text-sm text-ink/75">
-                            Developing a job tracker, practicing LeetCode, and exploring new frameworks.
+                            Improving my portfolio, practicing LeetCode, and exploring new frameworks.
                         </p>
                     </div>
 
                     <div className = "relative pl-8">
                         <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/90 shadow-sm"></span>
+                        <span className = "mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
+                            March - April 2026
+                        </span>
+                        <h3 className = "font-semibold text-ink">Hot Take</h3>
+                        <p className = "mt-1 text-sm text-ink/75">
+                            Worked on the backend and API development for discussion/matching app where you share your hot takes anonymously.
+                        </p>
+                    </div>
+
+                    <div className = "relative pl-8">
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/80 shadow-sm"></span>
                         <span className = "mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             January 2026
                         </span>
@@ -99,7 +110,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/80 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/70 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             September - December 2025
                         </span>
@@ -110,7 +121,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/70 shadow-sm"></span>
+                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/60 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             October 2025
                         </span>
@@ -121,7 +132,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/60 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/50 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             August 2025
                         </span>
@@ -132,7 +143,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/50 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/40 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             May - July 2025
                         </span>
@@ -143,7 +154,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/40 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/30 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             April - June 2025
                         </span>
@@ -154,7 +165,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/30 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/20 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             March 2025
                         </span>
@@ -165,7 +176,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className="relative pl-8">
-                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/20 shadow-sm"></span>
+                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/10 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             August 2023
                         </span>
