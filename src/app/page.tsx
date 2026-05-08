@@ -38,9 +38,10 @@ export default function Landing() {
           initial={{ opacity: 0, scale: 0.95, rotateZ: -1 }}
           animate={{ opacity: 1, scale: 1, rotateZ: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="relative max-w-2xl w-full"
+          className="relative w-full"
+          style={{ maxWidth: "72rem" }}
         >
-          <LinedPaper className="rounded-lg shadow-2xl p-8 md:p-16 border border-[#e8d5c4]">
+          <LinedPaper className="rounded-lg shadow-2xl px-16 py-14 md:px-36 md:py-20 border border-[#e8d5c4]">
             <Bow className="-top-8 -left-6 md:-top-10 md:-left-8" size={80} color="#ffc9d4" />
             <ScallopedWashiTape className="top-12 -right-4 md:-right-8" rotation={45} />
             <ScallopedWashiTape className="bottom-16 -left-4 md:-left-8" rotation={-35} />
@@ -49,7 +50,7 @@ export default function Landing() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="relative bg-[#ffd4e5] rounded-lg p-8 md:p-12 shadow-lg"
+              className="relative bg-[#ffd4e5] rounded-lg px-16 py-12 md:px-24 md:py-16 shadow-lg"
               style={{
                 backgroundImage: `radial-gradient(circle, rgba(255,255,255,0.5) 1px, transparent 1px)`,
                 backgroundSize: "8px 8px",
@@ -77,7 +78,7 @@ export default function Landing() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.5 }}
                   style={{ fontFamily: "'Great Vibes', cursive" }}
-                  className="text-5xl md:text-7xl mb-6 text-[#3d2618] leading-tight"
+                  className="text-6xl md:text-8xl mb-6 text-[#3d2618] leading-tight"
                 >
                   Kamilla Mamatova
                 </motion.h1>
