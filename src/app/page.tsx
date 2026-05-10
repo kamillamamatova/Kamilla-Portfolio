@@ -25,6 +25,13 @@ export default function Landing() {
       `}</style>
 
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-[#f5e6d8] via-[#fef8f5] to-[#ffe9f0] relative overflow-hidden p-6">
+        {/* Pink blobs */}
+        <div className="absolute top-0 right-0 h-80 w-80 rounded-full bg-petal/30 blur-3xl pointer-events-none" />
+        <div className="absolute bottom-10 left-0 h-72 w-72 rounded-full bg-petal/25 blur-3xl pointer-events-none" />
+        <div className="absolute top-1/2 left-1/4 h-64 w-64 rounded-full bg-peony/20 blur-3xl pointer-events-none" />
+        <div className="absolute top-10 left-10 h-56 w-56 rounded-full bg-petal/20 blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 right-1/4 h-72 w-72 rounded-full bg-peony/25 blur-3xl pointer-events-none" />
+
         {/* Subtle floating dots */}
         <div className="absolute inset-0 overflow-hidden opacity-20">
           {[...Array(8)].map((_, i) => (
