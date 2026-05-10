@@ -11,7 +11,7 @@ export default function HomePage(){
         </div>
 
         <h1 className = "text-6xl font-serif tracking-tight md:text-5xl">
-          Kamilla Mamatova
+          I build software with an emphasis on clarity, usability, and maintainable code.
         </h1>
 
         <p className = "max-w-2xl text-base leading-relaxed text-ink/80 md:text-lg">
