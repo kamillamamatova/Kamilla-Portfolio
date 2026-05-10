@@ -63,7 +63,7 @@ export default function HomePage(){
         </div>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-3 mt-22">
+      <section className="grid gap-4 md:grid-cols-3 mt-18">
         {[
           {
             title: "Building real things",
