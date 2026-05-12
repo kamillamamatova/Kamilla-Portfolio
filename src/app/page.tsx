@@ -57,7 +57,7 @@ export default function Landing() {
         >
           <LinedPaper className="rounded-lg shadow-2xl px-16 py-14 md:px-36 md:py-20 border border-[#e8d5c4]">
             <img
-              src="/pinkribbonbowcustom.png"
+              src="/components/pinkribbonbowcustom.png"
               alt=""
               className="absolute -top-12 -left-15 z-10"
               style={{ width: 180, transform: "rotate(-27deg)", opacity: 0.85 }}
