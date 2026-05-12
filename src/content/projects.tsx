@@ -25,15 +25,15 @@ export const projects: Project[] = [
             "Database schema and data flow decisions",
         ],
         images: [
-            "/rocket-time-landing-page-1.png",
-            "/rocket-time-landing-page-2.png",
-            "/rocket-time-login-ss.png",
-            "/rockettime dashboard.png",
-            "/rocket-time-log-time.png",
-            "/rocket-time-goals-tasks.png",
-            "/rocket-time-analytics.png",
-            "/rocket-time-ai-chat-ss.png",
-            "/rocket-time-google-calendar-ss.png",
+            "/projects/rocket time/rocket-time-landing-page-1.png",
+            "/projects/rocket time/rocket-time-landing-page-2.png",
+            "/projects/rocket time/rocket-time-login-ss.png",
+            "/projects/rocket time/rockettime dashboard.png",
+            "/projects/rocket time/rocket-time-log-time.png",
+            "/projects/rocket time/rocket-time-goals-tasks.png",
+            "/projects/rocket time/rocket-time-analytics.png",
+            "/projects/rocket time/rocket-time-ai-chat-ss.png",
+            "/projects/rocket time/rocket-time-google-calendar-ss.png",
         ]
     },
         {
@@ -50,10 +50,10 @@ export const projects: Project[] = [
             "Matching algorithm design and implementation",
         ],
         images: [
-            "/hot-take-signup.png",
-            "/hot-take-verification-page.png",
-            "/hot-take-interests-page.png",
-            "/hot-take-chat-page.png",
+            "/projects/hot take/hot-take-signup.png",
+            "/projects/hot take/hot-take-verification-page.png",
+            "/projects/hot take/hot-take-interests-page.png",
+            "/projects/hot take/hot-take-chat-page.png",
         ]
     },
     {
