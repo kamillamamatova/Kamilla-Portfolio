@@ -92,14 +92,14 @@ export const projects: Project[] = [
             "Designed for embeddability and simplicity",
         ],
         images: [
-            "/focusUpMainPage.png",
-            "/focusUpPomodoro.png",
-            "/focusUpLightTheme.png",
-            "/focusUpDarkTheme.png",
-            "/focusUpSignUpLogIn.png",
-            "/focusUpHistory.png",
-            "/focusUpSettings.png",
-            "/focusUpInNotion.png",
+            "/projects/focusup/focusUpMainPage.png",
+            "/projects/focusup/focusUpPomodoro.png",
+            "/projects/focusup/focusUpLightTheme.png",
+            "/projects/focusup/focusUpDarkTheme.png",
+            "/projects/focusup/focusUpSignUpLogIn.png",
+            "/projects/focusup/focusUpHistory.png",
+            "/projects/focusup/focusUpSettings.png",
+            "/projects/focusup/focusUpInNotion.png",
         ]
     },
     {
