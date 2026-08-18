@@ -61,7 +61,7 @@ export default function AboutPage(){
                 <div className = "flex flex-wrap gap-2">
                     {["Python", "Java", "C", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Git", 
                     "SQL", "Figma", "GameMaker Studio", "PyTorch", "Vercel", "Express", "Node.js", "NumPy", "Pandas",
-                     "Plotly", "Matplotlib", "MongoDB", "Render", "Aiven MySQL", "Google APIs","Groq APIs", "Digital Ocean"].map((tech) => (
+                     "Plotly", "Matplotlib", "MongoDB", "Render", "Aiven MySQL", "Google APIs","Groq APIs", "Digital Ocean", "Oracle"].map((tech) => (
                         <span
                             key = {tech}
                             className = "rounded-full bg-petal/50 px-3 py-1 text-xs text-ink/75 shadow-sm border border-ink/5"
@@ -83,7 +83,18 @@ export default function AboutPage(){
                         </span>
                         <h3 className = "font-semibold text-ink">Building & Learning</h3>
                         <p className = "mt-1 text-sm text-ink/75">
-                            Improving my portfolio, practicing LeetCode, and exploring new frameworks.
+                            Trying to find a new side project, practicing LeetCode, and exploring new frameworks.
+                        </p>
+                    </div>
+
+                    <div className = "relative pl-8">
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/95 shadow-sm"></span>
+                        <span className = "mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
+                            June - August 2026
+                        </span>
+                        <h3 className = "font-semibold text-ink">Bank of New York Internship</h3>
+                        <p className = "mt-1 text-sm text-ink/75">
+                            Worked as a software engineering intern at BNY, building internal full-stack applications. My knowledge on databases and SQL has exponentially improved, and I learned how to work in a professional environment with a team of engineers.
                         </p>
                     </div>
 
@@ -99,7 +110,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/80 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/85 shadow-sm"></span>
                         <span className = "mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             January 2026
                         </span>
@@ -110,7 +121,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/70 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/80 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             September - December 2025
                         </span>
@@ -121,18 +132,18 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/60 shadow-sm"></span>
+                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/75 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             October 2025
                         </span>
-                        <h3 className="font-semibold text-ink">KnightHacks Hackathon 2025</h3>
+                        <h3 className="font-semibold text-ink">KnightHacks VII Hackathon</h3>
                         <p className="mt-1 text-sm text-ink/75">
                             Contributed to building RocketTime in 36 hours, a productivity app helping users identify wasted time.
                         </p>
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/50 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/70 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             August 2025
                         </span>
@@ -143,7 +154,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/40 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/65 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             May - July 2025
                         </span>
@@ -154,7 +165,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/30 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/60 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             April - June 2025
                         </span>
@@ -165,7 +176,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className = "relative pl-8">
-                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/20 shadow-sm"></span>
+                        <span className = "absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/55 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             March 2025
                         </span>
@@ -176,7 +187,7 @@ export default function AboutPage(){
                     </div>
 
                     <div className="relative pl-8">
-                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/10 shadow-sm"></span>
+                        <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-white bg-petal/50 shadow-sm"></span>
                         <span className="mb-1 block text-xs font-medium uppercase tracking-wider text-ink/40">
                             August 2023
                         </span>
@@ -192,7 +203,7 @@ export default function AboutPage(){
                 <div className = "rounded-3xl border border-ink/10 bg-canvas/90 p-6 shadow-soft">
                     <h2 className = "text-base font-semibold">Currently</h2>
                     <p className = "mt-2 text-sm text-ink/75">
-                        Building my portfolio site, strengthening fundamentals, 
+                        Strengthening fundamentals, 
                         practicing LeetCode problems, and getting sharper at writing about
                         technical decisions.
                     </p>
