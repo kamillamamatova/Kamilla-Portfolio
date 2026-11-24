@@ -36,7 +36,32 @@ export const projects: Project[] = [
             "/projects/rocket time/rocket-time-google-calendar-ss.png",
         ]
     },
-        {
+    {
+        title: "LangTube",
+        description: "A Chrome extension built at Knight Hacks IX that turns YouTube videos into interactive lessons in Spanish, French, and Tagalog. Learners can follow synced bilingual captions, look up phrases in context, review saved words, and practice speaking with Luna, a live voice tutor.",
+        tags: ["TypeScript", "Vite", "CRXJS", "Chrome Manifest V3", "React", "Node.js", "Express", "Gemini API", "ElevenLabs", "TigerData", "Google OAuth", "Figma"],
+        links: [
+            { label: "Dashboard", href: "https://langtube-dashboard.vercel.app/" },
+            { label: "Code", href: "https://github.com/kamillamamatova/LangTube" },
+            { label: "Devpost", href: "https://devpost.com/software/translator-hpocu2" },
+        ],
+        highlights: [
+            "Phrase-aligned captions with clickable explanations and pronunciation playback",
+            "Flashcards and a progress dashboard with activity heatmaps and words to revisit",
+            "Live A1–B1 conversations with Luna and feedback on understanding, relevance, vocabulary, and grammar",
+        ],
+        images: [
+            "/projects/langtube/langtube1.jpg",
+            "/projects/langtube/langtube2.jpg",
+            "/projects/langtube/langtube3.jpg",
+            "/projects/langtube/langtube4.jpg",
+            "/projects/langtube/langtube5.jpg",
+            "/projects/langtube/langtube6.jpg",
+            "/projects/langtube/langtube7.jpg",
+            "/projects/langtube/langtube8.jpg",
+        ],
+    },
+    {
         title: "Hot Take",
         description: "A full-stack discussion and matching app. The project pairs users based on shared tags and overlapping language in their bios, then lets them start one-on-one chats.",
         tags: ["Node.js", "Express", "MongoDB", "Dart", "React", "Flutter", "Google OAuth", "Figma", "Digital Ocean"],
