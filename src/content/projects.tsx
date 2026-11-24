@@ -18,6 +18,7 @@ export const projects: Project[] = [
         links: [
             { label: "Live", href: "https://rocket-time-1.onrender.com"},
             { label: "Code", href: "https://github.com/kamillamamatova/rocket-time"},
+            { label: "Devpost", href: "https://devpost.com/software/rockettime"},
         ],
         highlights: [
             "Designed and implemented backend APIs",
