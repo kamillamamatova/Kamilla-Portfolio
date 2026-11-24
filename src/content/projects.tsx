@@ -41,14 +41,14 @@ export const projects: Project[] = [
         description: "A Chrome extension built at Knight Hacks IX that turns YouTube videos into interactive lessons in Spanish, French, and Tagalog. Learners can follow synced bilingual captions, look up phrases in context, review saved words, and practice speaking with Luna, a live voice tutor.",
         tags: ["TypeScript", "Vite", "CRXJS", "Chrome Manifest V3", "React", "Node.js", "Express", "Gemini API", "ElevenLabs", "TigerData", "Google OAuth", "Figma"],
         links: [
-            { label: "Dashboard", href: "https://langtube-dashboard.vercel.app/" },
+            { label: "Live", href: "https://langtube-dashboard.vercel.app/" },
             { label: "Code", href: "https://github.com/kamillamamatova/LangTube" },
             { label: "Devpost", href: "https://devpost.com/software/translator-hpocu2" },
         ],
         highlights: [
-            "Phrase-aligned captions with clickable explanations and pronunciation playback",
-            "Flashcards and a progress dashboard with activity heatmaps and words to revisit",
-            "Live A1–B1 conversations with Luna and feedback on understanding, relevance, vocabulary, and grammar",
+            "Synced captions with phrase lookup and pronunciation audio",
+            "Vocabulary flashcards and progress heatmaps",
+            "Live A1–B1 conversations with Luna and scored feedback",
         ],
         images: [
             "/projects/langtube/langtube1.jpg",
